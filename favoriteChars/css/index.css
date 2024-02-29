@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/wowbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.character-Section {
+  height: auto;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.character-Container {
+  display: flex;
+  height: auto;
+  flex-flow: row wrap;
+}
+
+.character-ListView {
+  background-color: rgb(0, 0, 0, 0.75);
+  border: 1px solid black;
+  color: whitesmoke;
+  width: 35%;
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3vh auto;
+  padding: 0 0 1vh 0;
+  font-size: 1.5rem;
+}
+
+.character-ListView p {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.character-ListView > .character-Image {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
+
+.view-Button {
+  width: 100px;
+  height: 100px;
+}
+
+.character-Name,
+.character-Gender,
+.character-Race,
+.character-Class {
+  width: 100%;
+  padding: 2vh 0;
+}
+
+.character-GridView {
+  width: 80%;
+  height: 60vh;
+  margin: 1vh auto;
+  border: 1px solid rgb(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.75);
+  color: whitesmoke;
+}
+
+.character-GridView > .character-Image {
+  width: 30%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gridView-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-flow: column wrap;
+  text-align: start;
+}
+
+.gridView-Container > .character-Name,
+.gridView-Container > .character-Race,
+.gridView-Container > .character-Class,
+.gridView-Container > .character-Gender {
+  width: 90%;
+  font-size: 2rem;
+  padding: 3vh 0;
+}
