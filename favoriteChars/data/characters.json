@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Thrall",
     "race": "Orc",
     "gender": "Male",
@@ -7,6 +8,7 @@
     "image": "images/Thrall.png"
   },
   {
+    "id": 2,
     "name": "Shandris Feathermoon",
     "race": "Night Elf",
     "gender": "Female",
@@ -14,6 +16,7 @@
     "image": "images/Shandris.jpg"
   },
   {
+    "id": 3,
     "name": "Baine Bloodhoof",
     "race": "Tauren",
     "gender": "Male",
@@ -21,6 +24,7 @@
     "image": "images/Baine.jpg"
   },
   {
+    "id": 4,
     "name": "Alleria Windrunner",
     "race": "Void Elf",
     "gender": "Female",
@@ -28,6 +32,7 @@
     "image": "images/Alleria.jpg"
   },
   {
+    "id": 5,
     "name": "Jaina Proudmoore",
     "race": "Human",
     "gender": "Female",
@@ -35,6 +40,7 @@
     "image": "images/Jaina.jpg"
   },
   {
+    "id": 6,
     "name": "Illidan Stormrage",
     "race": "Night Elf",
     "gender": "Male",
@@ -42,6 +48,7 @@
     "image": "images/Illidan.png"
   },
   {
+    "id": 7,
     "name": "Varian Wrynn",
     "race": "Human",
     "gender": "Male",
@@ -49,6 +56,7 @@
     "image": "images/Varian.jpg"
   },
   {
+    "id": 8,
     "name": "Varok Saurfang",
     "race": "Orc",
     "gender": "Male",

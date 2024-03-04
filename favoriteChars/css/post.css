@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-post{
+    background-color: black;
+    height: 100vh;
+}
+
+.character-CloseView{
+    margin: 0 auto;
+    max-width: 1144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    line-height: 200%;
+}
+
+.character-CloseView > .character-Image{
+    width: 50%;
+    height: 50%;
+    border: 5px solid white;
+    margin-top: 5vh;
+  }
+
